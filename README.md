@@ -1,6 +1,6 @@
 # Google ADK Excel Generator Agent
 
-## 📁 Project Structure (FIXED)
+## 📁 Project Structure 
 
 ```
 adk/
@@ -31,7 +31,7 @@ adk/
 
 ### 1. Activate Virtual Environment
 ```powershell
-cd c:\Users\HONNAVI VENU\OneDrive\Desktop\adk
+cd c:\Users\USER NAME\OneDrive\Desktop\adk
 .venv\Scripts\activate
 ```
 
