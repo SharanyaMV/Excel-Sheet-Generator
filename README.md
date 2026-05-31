@@ -17,6 +17,47 @@ adk/
 
 ##  Quick Start
 
+# Excel Sheet Generator
+
+An AI-powered agent designed to automate and generate structured Excel data and reports. 
+
+## Features
+- Autonomous agentic workflows for data structuring.
+- Automated tool execution for spreadsheet generation.
+- Secure credential handling using environment variables.
+
+---
+
+## Setup and Installation
+
+Extract the downloaded ZIP file or clone the repository, then open your terminal and change into the project directory:
+
+cd Excel-Sheet-Generator
+
+Create and activate a fresh virtual environment to isolate your project dependencies:
+
+python -m venv .venv
+
+Activate the environment using Windows PowerShell:
+.venv\Scripts\Activate.ps1
+
+Activate the environment using Mac or Linux:
+source .venv/bin/activate
+
+Install all the required Python packages needed for the agent to run:
+
+pip install -r requirements.txt
+
+Because configuration files containing sensitive API keys are hidden from GitHub for security, you must recreate the configuration file manually on your system. Create a brand-new file named `.env` in the root folder of the project, open it, and paste your Google Cloud Platform credentials inside it:
+
+GCP_API_KEY=your_actual_api_key_here
+
+## Project Structure
+- agent.py: Core logic for the AI agent orchestration.
+- tools.py: Custom tools used by the agent to construct spreadsheets.
+- schema.py: Data structures and validation models.
+- .gitignore: Protects sensitive files from being exposed.
+
 ### 1. Activate Virtual Environment
 ```powershell
 cd c:\Users\USER NAME\OneDrive\Desktop\adk
