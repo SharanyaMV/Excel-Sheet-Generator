@@ -1,0 +1,11 @@
+﻿Region,Product,Month,Sales_Amount,Units_Sold,Profitfloat_Generate_a_bar_chart_on_the_second_worksheet_to_visualize_Sales_Amount_by_Region_and_a_pie_chart_on_the_second_worksheet_to_visualize_the_distribution_of_Units_Sold_by_Product_Only_generate_the_Excel_file,not_CSV
+Region_1,Product_1,Month_1,100.25,1,100.25,not_CSV_1
+Region_2,Product_2,Month_2,200.5,2,200.5,not_CSV_2
+Region_3,Product_3,Month_3,300.75,3,300.75,not_CSV_3
+Region_4,Product_4,Month_4,401.0,4,401.0,not_CSV_4
+Region_5,Product_5,Month_5,501.25,5,501.25,not_CSV_5
+Region_6,Product_6,Month_6,601.5,6,601.5,not_CSV_6
+Region_7,Product_7,Month_7,701.75,7,701.75,not_CSV_7
+Region_8,Product_8,Month_8,802.0,8,802.0,not_CSV_8
+Region_9,Product_9,Month_9,902.25,9,902.25,not_CSV_9
+Region_10,Product_10,Month_10,1002.5,10,1002.5,not_CSV_10

@@ -1,0 +1,35 @@
+# ADK ignore patterns - directories and files to exclude from agent discovery
+
+# Python environments
+.venv/
+venv/
+env/
+.env
+
+# Node modules
+node_modules/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Version control
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+*.bak

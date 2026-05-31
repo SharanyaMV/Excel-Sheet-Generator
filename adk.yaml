@@ -1,0 +1,29 @@
+name: excel-generator-agent
+description: AI-powered Excel file generator using Google ADK and Gemini 2.5 Flash
+version: "1.0.0"
+
+# Agent discovery configuration
+agent_discovery:
+  # Paths to search for agents (relative to this file)
+  paths:
+    - ./my_agent
+  
+  # Patterns to exclude from agent discovery
+  exclude_patterns:
+    - "node_modules"
+    - ".venv"
+    - "__pycache__"
+    - ".git"
+    - ".env"
+    - "*.pyc"
+
+# Web server configuration
+web:
+  enabled: true
+  port: 8080
+  host: "0.0.0.0"
+  debug: false
+
+# Environment variables required by agents
+environment:
+  - GOOGLE_API_KEY
