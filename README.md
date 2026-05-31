@@ -15,19 +15,7 @@ adk/
 └── README.md                # This file
 ```
 
-## ✅ Fixed Issues
-
-1. ✅ **ValueError: No root_agent found for 'node_modules'** - RESOLVED
-   - Added `.adkignore` file to exclude unwanted directories
-   - Updated `adk.yaml` with explicit agent discovery paths
-   - Structured agent code in proper `my_agent/` package
-
-2. ✅ **Agent discovery** - Now limited to `./my_agent` only
-3. ✅ **Root agent** - Properly defined in `my_agent/agent.py`
-4. ✅ **Package structure** - Added `__init__.py` files
-5. ✅ **Node modules excluded** - Fully ignored by ADK framework
-
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Activate Virtual Environment
 ```powershell
@@ -55,7 +43,7 @@ GOOGLE_API_KEY=your_api_key_here
 ### 4. Access Web Interface
 Open: **http://localhost:8080**
 
-## 🔧 Key Files
+##  Key Files
 
 ### my_agent/agent.py
 - Defines `root_agent` (required by ADK)
@@ -82,13 +70,13 @@ agent_discovery:
 - Prevents ADK from scanning irrelevant directories
 - Includes: node_modules, .venv, __pycache__, .git, etc.
 
-## 📊 Features
+##  Features
 
-- 🤖 **AI-Powered**: Uses Google Gemini 2.5 Flash for intelligent Excel schema generation
-- 📊 **Dynamic Excel Creation**: Generates Excel files with appropriate columns and sample data
-- 🌐 **ADK Web UI**: Files are returned as downloadable artifacts in the ADK Web interface
-- 🔧 **Flexible Schema**: Supports various spreadsheet types (employees, customers, products, projects, etc.)
-- 📁 **Memory-Based**: No disk I/O - files generated in memory and returned as artifacts
+-  **AI-Powered**: Uses Google Gemini 2.5 Flash for intelligent Excel schema generation
+-  **Dynamic Excel Creation**: Generates Excel files with appropriate columns and sample data
+-  **ADK Web UI**: Files are returned as downloadable artifacts in the ADK Web interface
+-  **Flexible Schema**: Supports various spreadsheet types (employees, customers, products, projects, etc.)
+-  **Memory-Based**: No disk I/O - files generated in memory and returned as artifacts
 
 ## Installation
 
